@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+:root{
+  --developermen: #7362DE;
+  --instagram: #c13584;
+  --facebook: #3b5998;
+  --twitter: #1da1f2;
+  --google: #d95232;
+  --pinterest: #bd081c;
+  --github: #6e5494;
+  --slack: #e01563;
+  --wordpress: #21759b;
+}
+.title{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 0%;
+  color: var(--developermen);
+}
+
+.title2{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 0%;
+  color: var(--developermen);
+}
+
+.bg-cover{background:no-repeat center center/cover}
+
+.bg-seguimiento{
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mensaje{
+  width: 30%;
+  position:fixed;
+  top:5px;
+  right:5px;
+  z-index: 99999;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .title2{
+    font-size: 30px;
+  }
+  .bg-seguimiento{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .mensaje{
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0;
+    top: 0;
+    right: 0;
+    border-radius:0;
+    z-index:99999;
+  }
+  .footer{
+    text-align: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600');
+*{font-family:'Raleway', Calibri, Arial, sans-serif;font-size:100.01%; padding: 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html{	font-family:'Raleway', Calibri, Arial, sans-serif;font-size:62.5%;height:100%;}
+body{font-family:'Raleway', Calibri, Arial, sans-serif;margin:0;height:100%;font:1.3rem/1.61538 "Raleway", sans-serif;font-weight: bold;}
+.bodyDiv {
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+}
+body.bodyDiv {
+  background-image: url('https://developermen.com/assets/img/patterns/winterHouse.jpg');
+  /* background-image: url('https://developermen.com/assets/img/patterns/bg-signup.jpg'); */
+}
+body.bodyDiv {
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-attachment: scroll;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /*Como lo hacemos area*/
+  body.bodyDiv {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+  }
+}
+body.bodyDiv:after {
+  background: rgb(110, 69, 226);
+  background: -moz-linear-gradient(-45deg, rgba(110, 69, 226, 1) 0%, rgba(136, 211, 206, 1) 99%);
+  background: -webkit-linear-gradient(-45deg, rgba(110, 69, 226, 1) 0%, rgba(136, 211, 206, 1) 99%);
+  background: linear-gradient(135deg, rgba(110, 69, 226, 1) 0%, rgba(136, 211, 206, 1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e45e2', endColorstr='#88d3ce', GradientType=1);
+  color: #fff;
+  padding: 100px 0 100px;
+}
+#h1 {margin: 10px 0 20px;font-size: 3.5em;text-align: center;color: #3399ff;text-shadow: #000 0px 2px 4px; }
+p{font-family:"Source Sans Pro", sans-serif;}
+a{text-decoration:none;outline:none;}
+a:active{text-decoration:none;	outline: none;}
+a:hover,a:focus,a:active,a:visited{text-decoration:none;outline:none;}
+img{text-decoration:none;outline:none;}
+img:active{text-decoration:none;outline:none;}
+img:hover,a:focus,img:visited{text-decoration:none;outline:none;}
+}
+@media only screen and (min-width:1025px){[href^='tel:']{cursor:default;pointer-events:none;}
+}
+#divSuccess{
+	padding: 5px 15px;
+	font-size: 14px;
+	background:#a1e82c;
+	border-color:#a1e82c;
+	color:#ffffff;
+	position:fixed;
+	top:2%;
+	right:2%;
+	z-index:100;
+	width: 30%;
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+#divSuccessCorreo{
+	padding: 5px 15px;
+	font-size: 14px;
+	background:#a1e82c;
+	border-color:#a1e82c;
+	color:#ffffff;
+	position:fixed;
+	top:10%;
+	right:2%;
+	z-index:100;
+	width: 30%;
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+.divWarning{
+	padding: 10px 15px;
+	font-size: 14px;
+	background:#ffbc67;
+	border-color:#ffbc67;
+	color:#ffffff;
+	position:fixed;
+	top:2%;
+	right:2%;
+	z-index:100;
+	width: 30%;
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+.divError{
+	padding: 10px 15px;
+	font-size: 14px;
+	background:#ff6363;
+	border-color:#ff6363;
+	color:#ffffff;
+	position:fixed;
+	top:2%;
+	right:2%;
+	z-index:100;
+	width: 30%;
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+@media (max-width: 767px) {
+	#divSuccess{	padding: 20px 35px;	width: 90%;}
+	#divSuccessCorreo{	padding: 20px 35px;	width: 90%;}
+	.divWarning{	padding: 20px 35px;	width: 90%;}
+  .divError{	padding: 20px 35px;	width: 90%;}
+}
+/*Estilos iconos sociales*/
+#facebook{color:#3b5998;}#facebook:hover{color:#3b5998;}
+#twitter{color:#1da1f2;}#twitter:hover{color:#1da1f2;}
+#google{color:#d95232;}#google:hover{color:#d95232;}
+#gitHub{color:#ffffffff;}#gitHub:hover{color:#ffffffff;}
+.strong{
+  font-weight: bold;
+}
+.btn-login{
+  background: #7362DE;
+  border-color: #7362DE;
+  color:#ffffff;
+}
+.btn-login:hover{
+  background: #ffffff;
+  border-color: #ffffff;
+  color:#7362DE;
+}
+.btn-login:active{
+  background: #ffffff;
+  border-color: #ffffff;
+  color:#7362DE;
+}
+.btn-login:before {
+  font-family: FontAwesome;
+  content:"\f1d8";
+  position: relative;
+  /* top: 11px; */
+  left: -10px;
+  transition: all 200ms ease;
+  /* display: none; */
+}
+.btn-login:hover:before {
+  left: 80px;
+  top:-5px;
+  display: inline-block;
+}

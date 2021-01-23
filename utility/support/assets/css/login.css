@@ -1,0 +1,87 @@
+.mensaje{
+  width: 30%;
+  position:fixed;
+  top:5px;
+  right:5px;
+  z-index: 99999;
+}
+.mensajeLogin{
+  font-size:.875rem;
+}
+
+/*Estilos de la ayuda de la contraseña*/
+#pswd_info {
+  margin-top: 2%;
+  position:absolute;
+  margin-left:65%;
+  width:25%;
+  padding:15px;
+  background:#fefefe;
+  font-size:.875em;
+  border-radius:5px;
+  box-shadow:0 1px 3px #ccc;
+  border:1px solid #ddd;
+}
+
+#pswd_info::before {
+  content: "\25B2";
+  position:absolute;
+  top:-12px;
+  left:45%;
+  font-size:14px;
+  line-height:14px;
+  color:#ddd;
+  text-shadow:none;
+  display:block;
+}
+
+#pswd_info {
+  display:none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .mensaje{
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0;
+    top: 0;
+    right: 0;
+    border-radius:0;
+    z-index:99999;
+  }
+  .mensajeLogin{
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0;
+    top: 0;
+    right: 0;
+    border-radius:0;
+    z-index:99999;
+    font-size:.875rem;
+  }
+}
+
+.text-gray-dark{
+  color: #343b43;
+}
+
+.footer {
+  background-color:#343b43;
+  color:#ffffff;
+  background-image: url(https://developermen.com/assets/img/covers/hero-bg-back.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  font-size:12.5px;
+  box-shadow:0 2px 2px 2px rgba(0, 0, 0, 0.25);
+  z-index:99999;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .footer{
+    display: none;
+  }
+}
